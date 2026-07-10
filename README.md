@@ -51,10 +51,4 @@ UAS-KecerdasanBuatan/
 
 ---
 
-## Dokumentasi
-
-![Confusion Matrix](images/confusion_matrix_knn.png)
-
----
-
 Detail lengkap dapat dilihat pada **Laporan_uas.md**.
