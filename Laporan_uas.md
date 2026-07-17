@@ -5,8 +5,8 @@
 **Prediksi Status Gizi Balita Menggunakan Algoritma K-Nearest Neighbor (KNN) dan Random Forest**
 
 **Nama Kelompok:**
-- Nama 1 — NIM
-- Nama 2 — NIM
+- Moch Zidane Bahtiar  — 2406073
+- M Gilan Algina — 2406101
 
 **Domain Proyek (Latar Belakang)**
 
