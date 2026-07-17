@@ -199,19 +199,16 @@ rf_pipeline = Pipeline([
                                    class_weight='balanced', random_state=42))
 ])
 ```
-
-**Perbandingan model**
+## Perbandingan Performa Model
 
 | Metrik | KNN (K=3) | Random Forest |
-|---|---|---|
-| Accuracy | 0,9916 | *(isi setelah run notebook)* |
-| Precision (Macro) | 0,9882 | *(isi setelah run notebook)* |
-| Recall (Macro) | 0,9883 | *(isi setelah run notebook)* |
-| F1-Score (Macro) | 0,9882 | *(isi setelah run notebook)* |
+|--------|----------:|--------------:|
+| Accuracy | 0,9916 | 0,9958 |
+| Precision (Macro) | 0,9882 | 0,9946 |
+| Recall (Macro) | 0,9883 | 0,9947 |
+| F1-Score (Macro) | 0,9882 | 0,9946 |
 
-> Nilai KNN diambil dari hasil eksekusi notebook. Nilai Random Forest perlu diisi setelah
-> `uas_model.ipynb` dijalankan penuh (sel perbandingan otomatis menghasilkan tabel dan grafik
-> bar chart perbandingan kedua model).
+> Nilai KNN diperoleh dari hasil evaluasi model K-Nearest Neighbor (K=3), sedangkan nilai Random Forest diperoleh dari hasil evaluasi model Random Forest pada dataset yang sama.
 
 **Visualisasi model**
 
